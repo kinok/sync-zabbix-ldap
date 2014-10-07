@@ -1,0 +1,20 @@
+{
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/kinok/ldap-php-wrapper.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/kinok/zabbix-api-wrapper.git"
+        }
+    ],
+    "require": {
+        "symfony/console": "2.5.*",
+        "kinok/ldap-php-wrapper": "dev-master",
+        "kinok/zabbix-api-wrapper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "SyncZabbixLdapCommand\\": "command\\" }
+    }
+}
